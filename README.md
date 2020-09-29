@@ -1,6 +1,6 @@
 # iiec-Task-2
 
-# 📄 Task Description: Remember initially Vimal Sir has asked everyone to practice the menu making system using CLI, now you have to convert the same menu using CGI.
+# 📄 Task Description:  to convert menu-driven application using CLI to the web app using CGI.
 
 web based virtual assistant 
 
