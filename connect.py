@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 print("content-type: text/html")
-print("location: http://192.168.43.117/f.html")
+
 
 print()
 
@@ -18,6 +18,7 @@ passwd = form.getvalue('pass')
 if(user in a):
 	if(passwd in b):
 		final = sp.getoutput("cat /var/www/html/f.html")
+		print(final)
 	else:
 		print("invalid password")
 else:
