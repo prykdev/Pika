@@ -1,14 +1,15 @@
-# iiec-Task-2
+# Pika Virtual Assistant
 
-# 📄 Task Description:  to convert menu-driven application using CLI to the web app using CGI.
+## 📄 Task Description:  To convert a menu-driven application using CLI to a web application using CGI.
 
-web based virtual assistant 
+Web Based Virtual Assistant 
 
-# what it can do ?
+## What can it do?
 
-This webpage provides facility to run samo Linux Commands and networking commands using webserver   # redhat
+This webpage provides facility to run some Linux Commands and networking commands using webserver *redhat*.
 
+## Verify whether you have username and password.
 ![](sin.jpg)
-# verify weather you have username and passwd
 
+## Web Based Virtual Assistant 
 ![](web.jpg)
