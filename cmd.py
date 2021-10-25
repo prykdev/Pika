@@ -15,9 +15,6 @@ if ('run' in cmd) or ('what'in cmd) or ('date'in cmd):
 	res = subprocess.getoutput('date')
 	print(res)
 
-elif ('calender' in cmd) or ('cal' in cmd):
-	res=subprocess.getoutput('cal')
-	print(res)
 elif ('ram' in cmd) or ('usage' in cmd):
 	res=subprocess.getoutput('free -m')
 	print(res)
@@ -51,6 +48,10 @@ elif ('stop' in cmd) and ('firewall'in cmd):
 elif ('start' in cmd) and ('firewall'in cmd):
 	res=subprocess.getoutput('systemctl start firewalld')
 	print('firewall stoped sucessfully')
+
+elif ('Show docker containers' in cmd) and (' list all images' in cmd):
+	res = subprocess.getoutput('docker images')
+	print(res)
 
 else:
 	res=subprocess.getoutput(cmd)
