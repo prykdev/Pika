@@ -9,7 +9,7 @@
 </head>
 <style>
     body {
-        background-color: rgb(255, 206, 91);
+        background-color: rgb(218, 152, 0);
         font-family: "Open Sans", Arial;
     }
     
@@ -40,9 +40,9 @@
         height: 60vh;
         overflow: hidden;
         background: #f5f5f5;
-        -webkit-box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
-        box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
-        border-radius: 10px;
+        -webkit-box-shadow: 5px 5px 15px rgba(20, 20, 20, 0.5);
+        box-shadow: 5px 5px 15px rgba(20, 20, 20, 0.5);
+        border-radius: 35px;
     }
     
     #story {
@@ -52,7 +52,7 @@
     #top {
         background-color: rgb(255, 255, 255);
         margin: 2% 10%;
-        border-radius: 15px;
+        border-radius: 35px;
     }
     
     #top img {
@@ -76,13 +76,13 @@
     
     #input-field {
         margin: 1vh auto;
-        width: 50%;
-        border-radius: 10px;
+        width: 30%;
+        border-radius: 25px;
         border: none;
         box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
-        font-size: 40px;
+        font-size: 25px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: rgb(218, 152, 0);
+        color: rgb(34, 34, 34);
         padding: 10px;
         text-align: center;
     }
@@ -107,8 +107,8 @@
     }
     
     .submit-btn {
-        width: 20vh;
-        height: 7vh;
+        width: 15vh;
+        height: 5vh;
         margin-top: 0.8vh;
         color: rgb(255, 255, 255);
         border-radius: 5px;
@@ -133,13 +133,14 @@
         <div class="container">
             <form action='http://192.168.43.203/cgi-bin/f.py'>
                 <div class="heading">
-                    Welcome to your<span style="color: #FE834F;"> Web based assistant</span>
+                    Welcome to your<span style="color: #FE834F;"> web based assistant</span>
                 </div>
-                <div class="subheading">Enter your command here</div>
+                <div class="subheading">Enter command : 
                 <input id="input-field" name='c' type='text' />
                 <br />
                 <input class="submit-btn" type='submit' />
             </form>
+            </div>
         </div>
 
         </select>
